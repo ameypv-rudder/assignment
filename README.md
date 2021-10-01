@@ -12,7 +12,7 @@ The end goal is to make it easier for the end-user to use the SDK by having your
 
 ## Instructions
 
-Add your suggestions, comments, and changes to the following sections in this assignment and raise a PR for our review.
+Add your suggestions, comments, and changes to standardize and improve the following document and raise a PR for our review.
 
 ----
 
@@ -23,15 +23,15 @@ The RudderStack JavaScript SDK allows you to utilize our npm module `rudder-sdk-
 > For detailed documentation on the RudderStack JavaScript SDK, click [**here**](https://docs.rudderstack.com/stream-sources/rudderstack-sdk-integration-guides/rudderstack-javascript-sdk).
 -----
 
-## [](https://github.com/rudderlabs/rudder-sdk-js/blob/master/README.md#how-to-use-the-rudderstack-javascript-sdk)How to Use the RudderStack JavaScript SDK?
-
 This Quick Start Guide will help you get up and running with using the RudderStack JavaScript SDK in no time. You just need to follow the steps below:
 
-### [](https://github.com/rudderlabs/rudder-sdk-js/blob/master/README.md#step-1-install-rudderstack-using-the-code-snippet)Step 1: Install RudderStack Using the Code Snippet
+## [](https://github.com/rudderlabs/rudder-sdk-js/blob/master/README.md#step-1-install-rudderstack-using-the-code-snippet)Step 1: Install RudderStack Using the Code Snippet
 
 To integrate the SDK, place the following code snippet in the `<head>` section of your website.
 
-You can use either the minified or non-minified version of the code:
+You can use either the minified or non-minified version of the code.
+
+### Minified code 
 
 The minified version is as follows:
 
@@ -43,6 +43,7 @@ rudderanalytics=window.rudderanalytics=[];for(var methods=["load","page","track"
 <script  src="https://cdn.rudderlabs.com/v1/rudder-analytics.min.js"></script>
 
 ```
+### Non-minified Code
 
 The non-minified version of the code is shown below:
 
@@ -87,7 +88,7 @@ You can also execute the min file in async/defer way, like:
 <script async src="https://cdn.rudderlabs.com/rudder-analytics.min.js"></script>
 ```
 
-Combining the initialization and the above async script together
+Combining the initialization and the above async script together, we get:
 
 ```
     <script type="text/javascript">
@@ -97,7 +98,12 @@ Combining the initialization and the above async script together
     </script>
  ```
 
-> **NOTE**: Whichever version of the code you use, you need to replace `YOUR_WRITE_KEY` with the write key in the RudderStack Control Plane and `DATA_PLANE_URL` with the URL of the RudderStack Server/ Data Plane.<br><br>
+> **NOTE**: Whichever version of the code you use, you need to replace `YOUR_WRITE_KEY` with the write key in the RudderStack Control Plane and `DATA_PLANE_URL` with the data plane URL. <br><br>
+
+### Write key and Data plane URL
+
+- To get the source write key, follow [**this guide**](https://docs.rudderstack.com/get-started/installing-and-setting-up-rudderstack/sending-test-events#get-the-source-write-key).
+- To get the data plane URL, follow [**this guide**](https://docs.rudderstack.com/get-started/installing-and-setting-up-rudderstack#what-is-a-data-plane-url-where-do-i-get-it).
 
 > **NOTE** : In all the above versions, there is an explicit `page` call at the end. This is added to ensure that whenever the SDK loads in a page, a `page` call is being sent. You can remove this call completely or modify with extra page properties to suit your requirement. You can also add `page` calls in your application in places not tied directly to page load, ex: virtual page views, page renders on route change such as in SPAs.
 
