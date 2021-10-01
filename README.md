@@ -1,9 +1,6 @@
 <p align="center"><a href="https://rudderstack.com"><img src="https://user-images.githubusercontent.com/59817155/126267034-ae9870b7-9137-4f45-be65-d621b055a972.png" alt="RudderStack - Customer Data Platform for Developers" height="50"/></a></p>
-<h1 align="center"></h1>
+<h1 align="center"> Candidate Assignment</h1>
 <br/>
-
-
-# Assignment
 
 ## Assignment Objectives
 
@@ -17,9 +14,11 @@ The end goal is to make it easier for the end-user to use the SDK by having your
 
 Add your suggestions, comments, and changes to the following sections in this assignment and raise a PR for our review.
 
-## [](https://github.com/rudderlabs/rudder-sdk-js/blob/master/README.md#rudderstack-javascript-sdk)RudderStack JavaScript SDK
+----
 
-The RudderStack JavaScript SDK allows you to utilize our npm module `rudder-sdk-js` or `rudder-analytics.js` library to start sending event data from your website to RudderStack. After integrating this SDK, you will also be able to connect to multiple destinations such as Amplitude, Google Analytics, etc. to send your data.
+# [](https://github.com/rudderlabs/rudder-sdk-js/blob/master/README.md#rudderstack-javascript-sdk)RudderStack JavaScript SDK
+
+The RudderStack JavaScript SDK allows you to utilize our npm module `rudder-sdk-js` or `rudder-analytics.js` library to start sending event data from your website to RudderStack. You can then further transform and route this event data to the destination platform of your choice.
 
 > For detailed documentation on the RudderStack JavaScript SDK, click [**here**](https://docs.rudderstack.com/stream-sources/rudderstack-sdk-integration-guides/rudderstack-javascript-sdk).
 -----
