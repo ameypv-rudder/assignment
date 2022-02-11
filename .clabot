@@ -1,4 +1,4 @@
 {
   "contributors": ["YourUsername"],
-  "message": "We require our contributors to sign the [Contributor License Agreement](https://rudderlabs.wufoo.com/forms/rudderlabs-contributor-license-agreement). In order for us to review and merge your code, please sign the CLA so we can add you to the approved list of contributors."
+  "message": "We require our contributors to sign the <a href="https://rudderlabs.wufoo.com/forms/rudderlabs-contributor-license-agreement">Contributor License Agreement</a>. In order for us to review and merge your code, please sign the CLA so we can add you to the approved list of contributors."
 }
