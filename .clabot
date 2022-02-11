@@ -1,17 +1,3 @@
 {
-  "contributors": "YourUsername",
-  "message": "...",
-  "label": "...",
-  "recheckComment": "..."
-}
-
-{
-
-{usersWithoutCLA}
-
-{
-  "message": "We require contributors to sign our Contributor License Agreement for us to review and merge your code."
-}
-
-
+  "contributors": ["YourUsername"]
 }
