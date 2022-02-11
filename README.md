@@ -2,7 +2,7 @@
 <h1 align="center"> Candidate Assignment</h1>
 <br/>
 
-## Assignment Objectives
+## Assignment
 
 This assignment is aimed at evaluating your technical content writing expertise. Your objective is to go through the document and suggest changes to improve the clarity and brevity of the instructions.
 
