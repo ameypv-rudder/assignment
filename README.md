@@ -23,7 +23,7 @@ The RudderStack JavaScript SDK allows you to utilize our npm module `rudder-sdk-
 > For detailed documentation on the RudderStack JavaScript SDK, click [**here**](https://docs.rudderstack.com/stream-sources/rudderstack-sdk-integration-guides/rudderstack-javascript-sdk).
 -----
 
-This Quick Start Guide will help you get up and running with using the RudderStack JavaScript SDK in no time. You just need to follow the steps below:
+This Quick Start Guide will help you get started with using the RudderStack JavaScript SDK in no time. You just need to follow the steps below:
 
 ## [](https://github.com/rudderlabs/rudder-sdk-js/blob/master/README.md#step-1-install-rudderstack-using-the-code-snippet)Step 1: Install RudderStack Using the Code Snippet
 
